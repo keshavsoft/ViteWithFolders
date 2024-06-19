@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Menu",
+        "isTitle": true,
+        "icon": "bi bi-grid"
+    },
+    {
+        "name": "Create",
+        "children": [
+            {
+                "name": "Simple",
+                "url": "Create-Simple.html",
+                "icon": "grid-fill"
+            }
+        ]
+    },
+    {
+        "name": "Show",
+        "icon": "bi bi-plus-circle",
+        "children": [
+            {
+                "name": "Simple",
+                "url": "Show-Simple.html"
+            },
+            {
+                "name": "WithColumns",
+                "url": "Show-WithColumns.html",
+                "icon": "grid-fill"
+            }
+        ]
+    }
+]

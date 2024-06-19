@@ -1,0 +1,21 @@
+{
+  "name": "vitewithfolders",
+  "version": "1.0.0",
+  "description": "Implement vite with folder structure html files",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.2.0",
+    "vite-plugin-nunjucks": "^0.2.0",
+    "vite-plugin-static-copy": "^1.0.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
